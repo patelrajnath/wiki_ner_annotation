@@ -1,0 +1,15 @@
+TODO:
+1. The Polyglot tool has some errors when dealing with punctuation, fix them
+2. Use the following library: https://github.com/chaimleib/intervaltree
+3. The final structure of the project must be as follows:
+4. Organize tests
+
+├── src
+│   ├── __init__.py
+│   ├── ner_annotation_pipeline.py -> The pipeline that recieves entities
+│   ├── entity.py -> The entity class
+│   ├── tokenizers -> Tokenizers for the tokens of interest in a body of text
+│   │    ├─ entity_tokenizer.py -> tokenizes known entities
+│   │    ├─ predicted_entities_tokenizer.py -> tokenizes predicted entities
+│   │    ├─ sentences_tokenizer.py -> tokenizes senteces
+│   │    ├─ words_tokenizer.py -> tokenizes words

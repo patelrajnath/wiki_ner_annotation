@@ -1,0 +1,1 @@
+from .pt_wiki_text_cleaner import PTwikitextCleaner
